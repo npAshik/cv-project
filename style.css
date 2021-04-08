@@ -1,0 +1,66 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+body{
+   background-color: rgb(65, 88, 81);
+}
+.container{
+   max-width: 80%;
+   background-color: gray;
+   margin: 0 auto;
+}
+header{
+   padding: 10px;
+}
+/* .image{
+  
+} */
+img{
+   height: 50px;
+   width: 50px;
+   border: solid 2px white;
+   border-radius: 100%;
+   float: left;
+   cursor: pointer;
+}
+.bio{
+   float: left;
+   font-size: 5px;
+   padding-left: 10px;
+   font-family: arial black;
+   color: teal;
+   font-weight: bold;
+   cursor: pointer;
+   position: relative;
+   top: 10px;
+   word-spacing: 1px;
+}
+.contacts{
+   float: right;
+   line-height: 3px;
+   position: relative;
+   top: 10px;
+}
+.contacts a{
+   text-decoration: none;
+   font-size: 5px;
+   font-weight: bold;
+   color: teal;
+}
+.contacts a:hover{
+   color: tomato;
+   text-decoration: underline;
+}
+.clear{
+   clear: both;
+}
+hr{
+   border: dotted black 1px;
+   width: 100%;
+   margin: 10px auto;
+}
+/* ======================================
+                Fother end
+========================================= */
